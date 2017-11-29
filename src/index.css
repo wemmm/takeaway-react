@@ -1,5 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Rubik+Mono+One');
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  font-family: 'Rubik Mono One';
+  font-size: 60px;
+}
+
+table {
+  margin: auto;
+  font-family: Poppins;
+  font-size: 20px;
+}
+
+tr {
+  background-color: turquoise;
+}
+
+td, th {
+  padding: 10px;
+}
+
+.food-item:hover {
+  transition: background-color 0.5s ease;
+  background-color: lightsalmon;
 }

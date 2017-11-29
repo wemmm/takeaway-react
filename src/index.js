@@ -20,6 +20,18 @@ ReactDOM.render(
       {
         name: 'Edemame',
         price: 3
+      },
+      {
+        name: 'Unagi Don',
+        price: 8
+      },
+      {
+        name: 'Gyudon',
+        price: 6
+      },
+      {
+        name: 'Dorayaki',
+        price: 3
       }
     ]
   }/>,

@@ -16,5 +16,9 @@ export const MenuFoodList = ({food}) => (
                price={f.price}/>
     )}
   </tbody>
+  <tr>
+    <th><b>Total:</b></th>
+    <td>0</td>
+  </tr>
   </table>
 )
